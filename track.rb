@@ -5,7 +5,7 @@ class Track
   attr_accessor :title
   attr_accessor :artist
 
-  def initialize (artist, title)
+  def initialize artist, title
     @artist = artist
     @title = title
   end
